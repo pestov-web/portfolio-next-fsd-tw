@@ -10,11 +10,11 @@ export const SkillsSection: React.FC = () => {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
-              Skills & Expertise
+              Навыки и опыт
             </h2>
             <p className="text-muted-foreground max-w-[700px] mx-auto">
-              I've worked with a variety of technologies and frameworks to
-              create modern web applications.
+              Я работал с различными технологиями и фреймворками для создания
+              современных веб-приложений.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-8">

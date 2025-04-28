@@ -14,11 +14,11 @@ export const BlogSection: React.FC = () => {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
-              Latest from the Blog
+              Последнее из блога
             </h2>
             <p className="text-muted-foreground max-w-[700px] mx-auto">
-              I write about web development, design, and my experiences as a
-              developer.
+              Я пишу о веб-разработке, дизайне и моем опыте в качестве
+              разработчика.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
@@ -32,7 +32,7 @@ export const BlogSection: React.FC = () => {
           </div>
           <Button variant="outline" asChild className="mt-8">
             <Link href="/blog">
-              Read All Posts{' '}
+              Читайте все посты{' '}
               <Icon
                 icon="lucide:arrow-right"
                 width="24"

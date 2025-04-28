@@ -46,7 +46,7 @@ export function BlogPostCard({
       </CardContent>
       <CardFooter>
         <Button asChild variant="ghost" className="w-full">
-          <Link href={slug}>Read Article</Link>
+          <Link href={slug}>Читать статью</Link>
         </Button>
       </CardFooter>
     </Card>

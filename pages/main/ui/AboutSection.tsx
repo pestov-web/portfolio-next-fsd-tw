@@ -11,14 +11,12 @@ export const AboutSection: React.FC = () => {
               Обо мне
             </h2>
             <p className="text-muted-foreground">
-              I'm a passionate frontend developer with 5+ years of experience
-              creating beautiful, responsive, and user-friendly websites. I
-              specialize in React, Next.js, and modern CSS frameworks.
+              Я увлечённый фронтенд-разработчик с опытом создания красивых,
+              адаптивных и удобных для пользователя веб-сайтов. Специализируюсь
+              на React, Next.js и современных CSS-фреймворках.
             </p>
             <p className="text-muted-foreground">
-              When I'm not coding, you can find me writing technical articles,
-              contributing to open-source projects, or exploring new web
-              technologies.
+              Когда я не пишу код, вы можете найти меня за бутылкой пива =))
             </p>
           </div>
           <div className="flex justify-center">
