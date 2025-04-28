@@ -15,7 +15,6 @@ enum ArticleStatus {
 }
 
 enum Role {
-  GUEST
   USER
   AUTHOR
   FRIEND
@@ -28,11 +27,11 @@ model User {
   email         String?   @unique
   emailVerified DateTime?
   image         String?
-  role          Role      @default(GUEST)
+  role          Role      @default(USER)
   accounts      Account[]
   sessions      Session[]
-  posts         Article[]  // Связь с статьями пользователя
-  comments      Comment[] // Связь с комментариями пользователя
+  posts         Article[]  
+  comments      Comment[] 
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
