@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { Social } from '@/shared/ui/Social';
 import { NavMenu } from './Nav';
 import { ThemeToggle } from '@/features/theme/ui/ThemeToggle';
-import { Button } from '@/shared/ui/Button';
 
 export const Header: React.FC = () => {
   return (
